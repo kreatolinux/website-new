@@ -1,10 +1,12 @@
-# Kreato's Website
+# Kreato Linux's New Website
 
-My *new* website, using Sveltekit, Tailwind and Flowbite.
+New website, using Sveltekit, Tailwind and Flowbite.
+
+Based on [website-new](https://github.com/kreatoo/website-new)
 
 ## Developing
 
-Clone the repository with `git clone https://github.com/kreatoo/website-new`
+Clone the repository with `git clone https://github.com/kreatolinux/website-new`
 
 Once you've entered the project directory and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 

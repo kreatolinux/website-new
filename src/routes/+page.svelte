@@ -1,40 +1,70 @@
-<div class="flex h-screen bg-image bg-cover bg-center">
-   <div class="w-full h-full flex backdrop-blur">
-      <div class="m-auto">
-         <h1 class="text-4xl drop-shadow-lg pl-4 pb-2.5 font-bold">Welcome to Kreato's website</h1>
-	 <div class="pt-8">
-            
-	    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-            <span onclick="location.href='https://github.com/kreatoo'" class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-            GitHub
-            </span>
-            </button>
-            
-	    <button onclick="location.href='https://linux.kreato.dev'" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
-            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-            Kreato Linux
-            </span>
-	    </button>
+<script>
+	import { Badge } from 'flowbite-svelte'
+</script>
 
-            <button onclick="location.href='http://steamcommunity.com/id/kreato'" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-            Steam
-            </span>
-            </button>
-            
-	    <button onclick="location.href='https://gitlab.com/kreato'" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-            GitLab
-            </span>
-            </button>
-            
-	    <button onclick="location.href='https://matrix.to/#/@kreato:kreato.dev'" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
-            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"> 
-            Matrix
-            </span>
-            </button>
-         
-	 </div>
+<div class="flex h-screen bg-red-50">
+   <div class="w-full h-full flex">
+      <div class="m-auto">
+        <h1 class="text-6xl font-extrabold drop-shadow-lg">A distro made for <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">tinkerers</span></h1>
+	<h2 class="text-2xl font-extrabold">A Linux distribution that puts tinkering as its main focus.</h2>
       </div>
    </div>
 </div>
+
+<div class="flex h-screen bg-green-50">
+   <div class="w-full h-full flex">              
+      <div class="ml-20 my-auto">
+        <h1 class="text-6xl font-extrabold drop-shadow-lg">Made for modularity</h1>
+        <h2 class="text-2xl font-extrabold">Actually make the distro your own.</h2>       
+      </div>
+
+      <div class="ml-20 my-auto">
+      	<h2 class="text-[1.3rem] font-extrabold drop-shadow-lg">With easy configuration of the source tree, you can customize Kreato Linux from the userland to the window manager.</h2>
+      </div>
+   </div>
+</div>
+
+
+<div class="flex h-screen bg-orange-50">
+   <div class="w-full h-full flex">              
+      <div class="ml-20 my-auto">
+        <h1 class="text-6xl font-extrabold drop-shadow-lg">Minimal</h1>
+        <h2 class="text-2xl font-extrabold">Make your bloat-hater friends happy.</h2>       
+      </div>
+
+      <div class="ml-20 my-auto">
+        <h2 class="text-[1.3rem] font-extrabold drop-shadow-lg">Kreato Linux rootfs is the lightest rootfs' you can get your hands on. It only has the bare minimum and not much else.</h2> 
+      </div>
+   </div>
+</div>
+
+
+<div class="flex h-screen bg-emerald-50">
+   <div class="w-full h-full flex">              
+      <div class="ml-20 my-auto">
+      	<Badge border color="green">New</Badge>
+        <h1 class="text-6xl font-extrabold drop-shadow-lg">Compatible</h1>            
+        <h2 class="text-2xl font-extrabold">Your friend even if you hate systemd or want to use it.</h2>     
+      </div>
+
+      <div class="ml-20 my-auto">
+      	<h2 class="text-[1.3rem] font-extrabold drop-shadow-lg">JumpStart, Kreato Linux's service manager supports 4 backends and counting. Never fight over service managers again. <a class="text-emerald-500" href="https://linux.kreato.dev/jumpstart">Learn more</a></h2>                                   
+      </div>
+   </div>
+</div>
+
+
+<div class="flex h-screen bg-lime-50">
+   <div class="w-full h-full flex">              
+      <div class="ml-20 my-auto">
+      	<Badge border color="green">New</Badge>
+        <h1 class="text-6xl font-extrabold drop-shadow-lg">Immutability</h1>            
+        <h2 class="text-2xl font-extrabold">Now made easy.</h2>     
+      </div>
+
+      <div class="ml-20 my-auto">
+        <h2 class="text-[1.3rem] font-extrabold drop-shadow-lg">With the ability to quickly change and integrate packages onto the rootfs, Kreato Linux doesnt compromise on flexibility for immutability.</h2>                                   
+      </div>
+   </div>
+</div>
+

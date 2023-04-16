@@ -28,8 +28,7 @@ jobs:
         cache: 'npm'
     - run: |
         npm i
-        npm run build
-        mv build  
+        npm run build  
     
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4

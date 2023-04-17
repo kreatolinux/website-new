@@ -3,10 +3,10 @@
 </script>
 
 <div class="flex h-screen bg-red-50">
-   <div class="w-full h-full flex">
+   <div class="w-full h-full pb-60 pl-7 flex">
       <div class="m-auto">
-        <h1 class="text-6xl font-extrabold drop-shadow-lg">A distro made for <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">tinkerers</span></h1>
-	<h2 class="text-2xl font-extrabold">A Linux distribution that puts tinkering as its main focus.</h2>
+        <h1 class="text-4xl pl-10 p-7 md:text-6xl font-extrabold drop-shadow-lg">A distro made for <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">tinkerers</span></h1>
+	<h2 class="text-2xl md:text-2xl pl-10 font-extrabold">A Linux distribution that puts tinkering as its main focus.</h2>
       </div>
    </div>
 </div>

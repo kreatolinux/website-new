@@ -30,7 +30,11 @@ jobs:
         npm i
         npm run build  
     
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: upload artifact
+      uses: actions/upload-pages-artifact@v1
       with:
-        folder: build
+        path: "build"
+
+    - name: deploy
+      id: deployment
+      uses: actions/deploy-pages@v1

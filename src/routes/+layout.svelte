@@ -25,7 +25,7 @@
 </Navbar>
 
 <Alert>
-  Kreato Linux v2.0: The Last Battle is now released! You can check out the announcement and changelogs here.
+  Kreato Linux v2 Beta 1 is now released!
 </Alert>
 
 
